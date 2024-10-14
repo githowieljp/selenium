@@ -156,7 +156,7 @@
 						<version>3.5.1</version>
 						<configuration>
 							<suiteXmlFiles>
-								<suiteXmlFile>testng.xml</suiteXmlFile>
+								<suiteXmlFile>testing.xml</suiteXmlFile>
 							</suiteXmlFiles>
 						</configuration>
 					</plugin>
@@ -173,7 +173,7 @@
 						<version>3.5.1</version>
 						<configuration>
 							<suiteXmlFiles>
-								<suiteXmlFile>testng1.xml</suiteXmlFile>
+								<suiteXmlFile>testing1.xml</suiteXmlFile>
 							</suiteXmlFiles>
 						</configuration>
 					</plugin>
