@@ -1,0 +1,20 @@
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Regression TestSuite" parallel="tests" thread-count="5">
+	<test name="Test 1">
+		<parameter name="username" value="colintest8"></parameter>
+		<parameter name="password" value="@Aa111111"></parameter>
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="Coinfans.Easybet.BetSingleTest"></class>
+		</classes>
+	</test>
+	<test name="Test 2">
+		<parameter name="username" value="colintest9"></parameter>
+		<parameter name="password" value="@Aa111111"></parameter>
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="Coinfans.Easybet.BetMultiTest"></class>
+		</classes>
+	</test>
+</suite>
